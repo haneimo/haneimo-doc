@@ -6,4 +6,4 @@
 * [books-blog](https://books-blog.katagata.work)
 
 ## memo
-* [VBA Memo](https://dev.katagta.work/vba_memo)
+* [VBA Memo](https://dev.katagata.work/vba_memo)
