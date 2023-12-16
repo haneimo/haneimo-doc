@@ -2,9 +2,6 @@
 
 ## blog
 
-- [sampo-blog](https://sampo-blog.katagata.work)
-- [indoor-meshi](https://indoor-meshi.katagata.work)
-- [memo](https://memo.katagata.work)
-
-## memo
--  
+- [開発勉強メモ](https://memo.katagata.work)
+- [さんぽブログ](https://sampo-blog.katagata.work)
+- [いんどあめし](https://indoor-meshi.katagata.work)
