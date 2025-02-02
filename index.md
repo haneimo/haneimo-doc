@@ -5,7 +5,7 @@
 - [さんぽブログ](https://sampo-blog.katagata.work) ... 外出記録
 - [雑記](https://memo.katagata.work) ... その他の雑記
 
-## games
+## 作ったページなど
 
 ### [バコバト](https://bacobato.katagata.work/)
 
@@ -19,6 +19,6 @@
 
 ### [ゲームとか](https://game.katagata.work/)
 
-- URL: [https://bacobato.katagata.work/](https://bacobato.katagata.work/)
+- URL: [https://game.katagata.work/](https://game.katagata.work/)
 - RPGツクールmzとか、他ツールとかで作ったゲームを置く予定の場所
 
