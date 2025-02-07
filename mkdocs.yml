@@ -1,0 +1,10 @@
+site_name: dev.katagata.work
+theme:
+  name: material
+  locale: ja
+  palette:
+    primary: blue grey
+  font:
+    text: Zen Maru Gothic
+extra_javascript:
+  - js/custom.js
