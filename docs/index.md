@@ -1,5 +1,10 @@
 # hello page.
 
+## 開発関連
+
+- [github](https://github.com/haneimo) ... コード関連置き場
+- [gist](https://gist.github.com/haneimo) ... ほしいと思った時に組んだスクリプト（最近はcopilotに頼んでばかり...）
+
 ## blog
 
 - [さんぽブログ](https://sampo-blog.katagata.work) ... 外出記録
