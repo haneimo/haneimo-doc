@@ -27,8 +27,8 @@ jobs:
 
     - name: Build
       run: |
-        mkdocs --version  # mkdocsが正しくインストールされているか確認
-        mkdocs build
+        .venv/bin/mkdocs --version  # mkdocsが正しくインストールされているか確認
+        .venv/bin/mkdocs build
 
     - name: Upload to FTP server
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
