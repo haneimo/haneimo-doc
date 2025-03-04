@@ -18,16 +18,12 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
+    - name: Install dependencies and build
       run: |
         python -m venv .venv
         . .venv/bin/activate
         python -m pip install --upgrade pip
         pip install mkdocs
-
-    - name: Build the site
-      run: |
-        . .venv/bin/activate
         mkdocs build
 
     - name: Upload to FTP server
