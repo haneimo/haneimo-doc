@@ -1,4 +1,4 @@
-# hello page.
+# ハローページ：hello page.
 
 ## 開発関連
 
