@@ -24,7 +24,9 @@ jobs:
         . .venv/bin/activate
         python -m pip install --upgrade pip
         pip install mkdocs
-        mkdocs build
+        .venv/bin/mkdocs --version  # mkdocsが正しくインストールされているか確認
+        .venv/bin/mkdocs build
+
 
     - name: Upload to FTP server
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
