@@ -18,15 +18,18 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install dependencies and build
+    - name: Install dependencies
       run: |
         python -m venv .venv
         . .venv/bin/activate
         python -m pip install --upgrade pip
         pip install mkdocs
+
+    - name: Build
+      run: |
+        . .venv/bin/activate  # 再度アクティベート
         .venv/bin/mkdocs --version  # mkdocsが正しくインストールされているか確認
         .venv/bin/mkdocs build
-
 
     - name: Upload to FTP server
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
