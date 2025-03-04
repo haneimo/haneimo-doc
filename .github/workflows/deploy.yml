@@ -28,8 +28,8 @@ jobs:
     - name: Build
       run: |
         . .venv/bin/activate  # 再度アクティベート
-        .venv/bin/mkdocs --version  # mkdocsが正しくインストールされているか確認
-        .venv/bin/mkdocs build
+        mkdocs --version  # mkdocsが正しくインストールされているか確認
+        mkdocs build
 
     - name: Upload to FTP server
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
